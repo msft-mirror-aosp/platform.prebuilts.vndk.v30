@@ -6878,7 +6878,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libaudioroute.so-notice",
+    licenses: ["vndk-v30-libaudioroute.so-license"],
     arch: {
         x86: {
             srcs: ["arch-x86/shared/vndk-core/libaudioroute.so"],
@@ -6988,7 +6988,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libcap.so-notice",
+    licenses: ["vndk-v30-libcap.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7109,7 +7109,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libcrypto.so-notice",
+    licenses: ["vndk-v30-libcrypto.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7149,7 +7149,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libcurl.so-notice",
+    licenses: ["vndk-v30-libcurl.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7211,7 +7211,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libevent.so-notice",
+    licenses: ["vndk-v30-libevent.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7232,7 +7232,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libexif.so-notice",
+    licenses: ["vndk-v30-libexif.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7252,7 +7252,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libexpat.so-notice",
+    licenses: ["vndk-v30-libexpat.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7384,7 +7384,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libhardware_legacy.so-notice",
+    licenses: ["vndk-v30-libhardware_legacy.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7444,7 +7444,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libjpeg.so-notice",
+    licenses: ["vndk-v30-libjpeg.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7465,7 +7465,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libldacBT_abr.so-notice",
+    licenses: ["vndk-v30-libldacBT_abr.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7485,7 +7485,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libldacBT_enc.so-notice",
+    licenses: ["vndk-v30-libldacBT_enc.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7505,7 +7505,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-liblz4.so-notice",
+    licenses: ["vndk-v30-liblz4.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7545,7 +7545,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libmedia_omx.so-notice",
+    licenses: ["vndk-v30-libmedia_omx.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7630,7 +7630,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libminijail.so-notice",
+    licenses: ["vndk-v30-libminijail.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7669,7 +7669,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libnetutils.so-notice",
+    licenses: ["vndk-v30-libnetutils.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7689,7 +7689,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libnl.so-notice",
+    licenses: ["vndk-v30-libnl.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7710,7 +7710,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libpcre2.so-notice",
+    licenses: ["vndk-v30-libpcre2.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7731,7 +7731,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libpiex.so-notice",
+    licenses: ["vndk-v30-libpiex.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7752,7 +7752,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libpng.so-notice",
+    licenses: ["vndk-v30-libpng.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7773,7 +7773,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libpower.so-notice",
+    licenses: ["vndk-v30-libpower.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7834,7 +7834,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libspeexresampler.so-notice",
+    licenses: ["vndk-v30-libspeexresampler.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7854,7 +7854,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libsqlite.so-notice",
+    licenses: ["vndk-v30-libsqlite.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7875,7 +7875,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libssl.so-notice",
+    licenses: ["vndk-v30-libssl.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -7982,7 +7982,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libstagefright_foundation.so-notice",
+    licenses: ["vndk-v30-libstagefright_foundation.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8011,7 +8011,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libstagefright_omx.so-notice",
+    licenses: ["vndk-v30-libstagefright_omx.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8042,7 +8042,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libstagefright_omx_utils.so-notice",
+    licenses: ["vndk-v30-libstagefright_omx_utils.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8148,7 +8148,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libtinyalsa.so-notice",
+    licenses: ["vndk-v30-libtinyalsa.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8169,7 +8169,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libtinyxml2.so-notice",
+    licenses: ["vndk-v30-libtinyxml2.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8190,7 +8190,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libui.so-notice",
+    licenses: ["vndk-v30-libui.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8284,7 +8284,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v30-libxml2.so-notice",
+    licenses: ["vndk-v30-libxml2.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8934,7 +8934,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v30-libblas.so-notice",
+    licenses: ["vndk-v30-libblas.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8955,7 +8955,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libc++.so-notice",
+    licenses: ["vndk-v30-libc++.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -8978,7 +8978,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v30-libcompiler_rt.so-notice",
+    licenses: ["vndk-v30-libcompiler_rt.so-license"],
     arch: {
         x86: {
             srcs: ["arch-x86/shared/vndk-sp/libcompiler_rt.so"],
@@ -8996,7 +8996,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libcutils.so-notice",
+    licenses: ["vndk-v30-libcutils.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -9064,7 +9064,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libhardware.so-notice",
+    licenses: ["vndk-v30-libhardware.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -9089,7 +9089,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libhidlbase.so-notice",
+    licenses: ["vndk-v30-libhidlbase.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -9273,7 +9273,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libutils.so-notice",
+    licenses: ["vndk-v30-libutils.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -9299,7 +9299,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libutilscallstack.so-notice",
+    licenses: ["vndk-v30-libutilscallstack.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
@@ -9325,7 +9325,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v30-libz.so-notice",
+    licenses: ["vndk-v30-libz.so-license"],
     arch: {
         x86: {
             export_include_dirs: [
