@@ -3838,13 +3838,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/hardware/interfaces/confirmationui/support/include",
-                "include/hardware/interfaces/confirmationui/support/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/android.hardware.confirmationui-support-lib.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/hardware/interfaces/confirmationui/support/include",
                 "include/hardware/interfaces/confirmationui/support/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/android.hardware.confirmationui-support-lib.so"],
@@ -10875,7 +10873,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/libhidl/transport/token/1.0/utils/include",
-                "include/system/libhidl/transport/token/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
                 "include/system/core/base/include",
                 "include/system/core/libcutils/include_vndk",
@@ -10898,7 +10895,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/libhidl/transport/token/1.0/utils/include",
                 "include/system/libhidl/transport/token/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
                 "include/system/core/base/include",
@@ -11223,13 +11219,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/deprecated-adf/libadf/include",
-                "include/system/core/deprecated-adf/libadf/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libadf.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/deprecated-adf/libadf/include",
                 "include/system/core/deprecated-adf/libadf/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libadf.so"],
@@ -11270,7 +11264,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/media/audio_utils/include",
-                "include/system/media/audio_utils/include",
                 "include/system/media/audio/include",
                 "include/system/core/libcutils/include_vndk",
                 "include/system/core/libutils/include",
@@ -11283,7 +11276,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/media/audio_utils/include",
                 "include/system/media/audio_utils/include",
                 "include/system/media/audio/include",
                 "include/system/core/libcutils/include_vndk",
@@ -11405,13 +11397,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libcap/libcap/include",
-                "include/external/libcap/libcap/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libcap.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libcap/libcap/include",
                 "include/external/libcap/libcap/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libcap.so"],
@@ -11528,13 +11518,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/cn-cbor/include",
-                "include/external/cn-cbor/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libcn-cbor.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/cn-cbor/include",
                 "include/external/cn-cbor/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libcn-cbor.so"],
@@ -11632,13 +11620,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libcrypto_utils/include",
-                "include/system/core/libcrypto_utils/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libcrypto_utils.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libcrypto_utils/include",
                 "include/system/core/libcrypto_utils/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libcrypto_utils.so"],
@@ -11660,13 +11646,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/curl/include",
-                "include/external/curl/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libcurl.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/curl/include",
                 "include/external/curl/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libcurl.so"],
@@ -11687,13 +11671,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libdiskconfig/include",
-                "include/system/core/libdiskconfig/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libdiskconfig.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libdiskconfig/include",
                 "include/system/core/libdiskconfig/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libdiskconfig.so"],
@@ -11744,13 +11726,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libevent/include",
-                "include/external/libevent/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libevent.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libevent/include",
                 "include/external/libevent/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libevent.so"],
@@ -11798,13 +11778,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/expat/lib",
-                "include/external/expat/lib",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libexpat.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/expat/lib",
                 "include/external/expat/lib",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libexpat.so"],
@@ -11825,7 +11803,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/libfmq/include",
-                "include/system/libfmq/include",
                 "include/system/core/libcutils/include_vndk",
                 "include/system/core/libprocessgroup/include",
                 "include/system/core/libcutils/include",
@@ -11838,7 +11815,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/libfmq/include",
                 "include/system/libfmq/include",
                 "include/system/core/libcutils/include_vndk",
                 "include/system/core/libprocessgroup/include",
@@ -11892,7 +11868,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/frameworks/native/libs/gui/include",
-                "include/frameworks/native/libs/gui/include",
                 "include/system/libhidl/transport/token/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
                 "include/system/core/base/include",
@@ -11942,7 +11917,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/frameworks/native/libs/gui/include",
                 "include/frameworks/native/libs/gui/include",
                 "include/system/libhidl/transport/token/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
@@ -12008,14 +11982,12 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/hardware/libhardware_legacy/include",
-                "include/hardware/libhardware_legacy/include",
                 "include/system/core/libcutils/include_vndk",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libhardware_legacy.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/hardware/libhardware_legacy/include",
                 "include/hardware/libhardware_legacy/include",
                 "include/system/core/libcutils/include_vndk",
             ],
@@ -12036,7 +12008,6 @@ vndk_prebuilt_shared {
     arch: {
         x86: {
             export_include_dirs: [
-                "include/system/libhidl/transport/allocator/1.0/utils/include",
                 "include/system/libhidl/transport/allocator/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
                 "include/system/core/base/include",
@@ -12061,7 +12032,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/libhidl/transport/allocator/1.0/utils/include",
                 "include/system/libhidl/transport/allocator/1.0/utils/include",
                 "include/frameworks/native/libs/binder/include",
                 "include/system/core/base/include",
@@ -12101,13 +12071,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libjpeg-turbo",
-                "include/external/libjpeg-turbo",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libjpeg.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libjpeg-turbo",
                 "include/external/libjpeg-turbo",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libjpeg.so"],
@@ -12181,13 +12149,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/lz4/lib",
-                "include/external/lz4/lib",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/liblz4.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/lz4/lib",
                 "include/external/lz4/lib",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/liblz4.so"],
@@ -12454,13 +12420,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libnl/include",
-                "include/external/libnl/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libnl.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libnl/include",
                 "include/external/libnl/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libnl.so"],
@@ -12482,13 +12446,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/pcre/include",
-                "include/external/pcre/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libpcre2.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/pcre/include",
                 "include/external/pcre/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libpcre2.so"],
@@ -12510,13 +12472,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/piex",
-                "include/external/piex",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libpiex.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/piex",
                 "include/external/piex",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libpiex.so"],
@@ -12538,13 +12498,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libpng",
-                "include/external/libpng",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libpng.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libpng",
                 "include/external/libpng",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libpng.so"],
@@ -12566,13 +12524,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/hardware/libhardware_legacy/include",
-                "include/hardware/libhardware_legacy/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libpower.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/hardware/libhardware_legacy/include",
                 "include/hardware/libhardware_legacy/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libpower.so"],
@@ -12593,13 +12549,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libprocinfo/include",
-                "include/system/core/libprocinfo/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libprocinfo.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libprocinfo/include",
                 "include/system/core/libprocinfo/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libprocinfo.so"],
@@ -12674,13 +12628,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/sqlite/dist",
-                "include/external/sqlite/dist",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libsqlite.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/sqlite/dist",
                 "include/external/sqlite/dist",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libsqlite.so"],
@@ -12702,13 +12654,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/boringssl/src/include",
-                "include/external/boringssl/src/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libssl.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/boringssl/src/include",
                 "include/external/boringssl/src/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libssl.so"],
@@ -12728,7 +12678,6 @@ vndk_prebuilt_shared {
     arch: {
         x86: {
             export_include_dirs: [
-                "include/frameworks/av/media/bufferpool/2.0/include",
                 "include/frameworks/av/media/bufferpool/2.0/include",
                 "include/system/libfmq/include",
                 "include/system/core/libcutils/include_vndk",
@@ -12753,7 +12702,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/frameworks/av/media/bufferpool/2.0/include",
                 "include/frameworks/av/media/bufferpool/2.0/include",
                 "include/system/libfmq/include",
                 "include/system/core/libcutils/include_vndk",
@@ -13112,13 +13060,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libsysutils/include",
-                "include/system/core/libsysutils/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libsysutils.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libsysutils/include",
                 "include/system/core/libsysutils/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libsysutils.so"],
@@ -13140,13 +13086,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/tinyalsa/include",
-                "include/external/tinyalsa/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libtinyalsa.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/tinyalsa/include",
                 "include/external/tinyalsa/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libtinyalsa.so"],
@@ -13168,13 +13112,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/tinyxml2",
-                "include/external/tinyxml2",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libtinyxml2.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/tinyxml2",
                 "include/external/tinyxml2",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libtinyxml2.so"],
@@ -13289,13 +13231,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libusbhost/include",
-                "include/system/core/libusbhost/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libusbhost.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libusbhost/include",
                 "include/system/core/libusbhost/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libusbhost.so"],
@@ -13316,13 +13256,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/frameworks/opt/net/wifi/libwifi_system_iface/include",
-                "include/frameworks/opt/net/wifi/libwifi_system_iface/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libwifi-system-iface.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/frameworks/opt/net/wifi/libwifi_system_iface/include",
                 "include/frameworks/opt/net/wifi/libwifi_system_iface/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libwifi-system-iface.so"],
@@ -13369,13 +13307,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/libyuv/files/include",
-                "include/external/libyuv/files/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-core/libyuv.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/libyuv/files/include",
                 "include/external/libyuv/files/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-core/libyuv.so"],
@@ -13396,7 +13332,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libziparchive/include",
-                "include/system/core/libziparchive/include",
                 "include/external/googletest/googletest/include",
                 "include/system/core/base/include",
                 "include/external/fmtlib/include",
@@ -13405,7 +13340,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libziparchive/include",
                 "include/system/core/libziparchive/include",
                 "include/external/googletest/googletest/include",
                 "include/system/core/base/include",
@@ -14429,7 +14363,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/frameworks/native/libs/gralloc/types/include",
-                "include/frameworks/native/libs/gralloc/types/include",
                 "include/frameworks/native/libs/binder/ndk/include_ndk",
                 "include/frameworks/native/libs/binder/ndk/include_platform",
                 "include/generated-headers/hardware/interfaces/common/aidl/android.hardware.common-ndk_platform-source/gen/include",
@@ -14459,7 +14392,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/frameworks/native/libs/gralloc/types/include",
                 "include/frameworks/native/libs/gralloc/types/include",
                 "include/frameworks/native/libs/binder/ndk/include_ndk",
                 "include/frameworks/native/libs/binder/ndk/include_platform",
@@ -14542,8 +14474,6 @@ vndk_prebuilt_shared {
             export_include_dirs: [
                 "include/system/libhidl/base/include",
                 "include/system/libhidl/transport/include",
-                "include/system/libhidl/base/include",
-                "include/system/libhidl/transport/include",
                 "include/system/libhwbinder/include",
                 "include/system/core/base/include",
                 "include/external/fmtlib/include",
@@ -14563,8 +14493,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/libhidl/base/include",
-                "include/system/libhidl/transport/include",
                 "include/system/libhidl/base/include",
                 "include/system/libhidl/transport/include",
                 "include/system/libhwbinder/include",
@@ -14601,7 +14529,6 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/libhidl/libhidlmemory/include",
-                "include/system/libhidl/libhidlmemory/include",
                 "include/system/libhidl/base/include",
                 "include/system/libhidl/transport/include",
                 "include/system/libhwbinder/include",
@@ -14625,7 +14552,6 @@ vndk_prebuilt_shared {
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/libhidl/libhidlmemory/include",
                 "include/system/libhidl/libhidlmemory/include",
                 "include/system/libhidl/base/include",
                 "include/system/libhidl/transport/include",
@@ -14697,13 +14623,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/jsoncpp/include",
-                "include/external/jsoncpp/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-sp/libjsoncpp.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/jsoncpp/include",
                 "include/external/jsoncpp/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-sp/libjsoncpp.so"],
@@ -14725,13 +14649,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/lzma/C",
-                "include/external/lzma/C",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-sp/liblzma.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/lzma/C",
                 "include/external/lzma/C",
             ],
             srcs: ["arch-x86_64/shared/vndk-sp/liblzma.so"],
@@ -14753,13 +14675,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libprocessgroup/include",
-                "include/system/core/libprocessgroup/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-sp/libprocessgroup.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libprocessgroup/include",
                 "include/system/core/libprocessgroup/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-sp/libprocessgroup.so"],
@@ -14781,13 +14701,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/system/core/libunwindstack/include",
-                "include/system/core/libunwindstack/include",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-sp/libunwindstack.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/system/core/libunwindstack/include",
                 "include/system/core/libunwindstack/include",
             ],
             srcs: ["arch-x86_64/shared/vndk-sp/libunwindstack.so"],
@@ -14884,13 +14802,11 @@ vndk_prebuilt_shared {
         x86: {
             export_include_dirs: [
                 "include/external/zlib",
-                "include/external/zlib",
             ],
             srcs: ["arch-x86-x86_64/shared/vndk-sp/libz.so"],
         },
         x86_64: {
             export_include_dirs: [
-                "include/external/zlib",
                 "include/external/zlib",
             ],
             srcs: ["arch-x86_64/shared/vndk-sp/libz.so"],
